@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+.home{
+    width: 100px;
+    height: auto;
+}
+
+body {
+    height:100vh;
+   background:url("images/bg.jpg"); 
+   background-position: center;
+   background-size:cover;
+   background-color: black;
+   background-attachment: fixed;
+
+
+
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;  
+    padding:20px;
+    
+
+    
+
+}.navbar .logo{
+    font-size:2.1rem;
+    font-weight:600;
+    
+}
+
+header .navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px 70px;
+
+
+}
+.navbar .logo span{
+    color:maroon;
+}
+.navbar .menu-links{
+    display:flex;
+    gap:40px;
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    transition: 0.2s ease;
+
+}
+.navbar a:hover{
+color:maroon;
+}
+.hero-section{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    
+
+
+}
+.hero-section .content{
+color:white;
+max-width: 1000px;
+width:100%;
+margin: 0px 70px;
+}
+.hero-section .content h1{
+    font-size: 1.5rem;
+    max-width:600px;
+    margin-top: 20px;
+
+}
+
+.hero-section .content p{
+   font-weight: 300;
+   margin-top: 20px;
+   max-width:600px;
+   font-size: 1rem;
+    
+}
+.hero-section .content button{
+    background:white;
+    outline:none;
+    border:none;
+    font-size:1rem;
+    padding:12px 30px;
+    border-radius: 6px;
+    margin-top: 38px;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+.hero-section .content button:hover{
+    background-color: maroon;
+}
+    
+
+
+    
+
+footer .icons{
+    position:fixed;
+    text-align: center;
+    font-size: 34px;
+    padding: 10px 30px;
+    gap:20px;
+
+}
+footer{
+
+}
